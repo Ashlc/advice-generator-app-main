@@ -2,6 +2,8 @@
 
 This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db).
 
+[Live View](https://ashlc.github.io/advice-generator-app-main/)
+
 ## Table of contents
 
 - [Frontend Mentor - Advice generator app solution](#frontend-mentor---advice-generator-app-solution)
@@ -32,10 +34,6 @@ Hover State and Toast component
 Mobile View
 
 ![Mobile](./screenshots/mobile.png)
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 
 ## Process and extra features
 
