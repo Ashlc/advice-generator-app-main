@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Advice generator app</title>
+  </head>
+  <body>
+    <main>
+      <div class="toggle-container">
+        <p id="toggle-text">Disable Toasts</p>
+        <label class="toggle">
+          <input type="checkbox" checked name="toggle-toast" id="toggle-toast">
+          <span class="circle"></span>
+        </label>
+      </div>
+      <div class="card">
+        <p class="advice-id">
+          ADVICE
+          <span id="advice-id">?</span>
+        </p>
+        <p id="advice">Press the button below to get a piece of advice.</p>
+        <img class="desktop-divider" src="images/pattern-divider-desktop.svg" alt="" srcset="">
+        <img class="mobile-divider" src="images/pattern-divider-mobile.svg" alt="" srcset="">
+        <button class="button" id="shuffle" onclick="handleShuffle()">
+          <img id="dice" src="images/icon-dice.svg" alt="" srcset="">
+        </button>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://www.frontendmentor.io/profile/Ashlc" target="_blank">Ashl</a>.
+      </div>
+      <div id="toast-stack">
+        <!-- Wrapper for the toasts. -->
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
